@@ -1,3 +1,0 @@
-/home/zx/workspace/Anker_Project/FeatureTracker/build/CMakeFiles/rebuild_cache.dir
-/home/zx/workspace/Anker_Project/FeatureTracker/build/CMakeFiles/featureTracker.dir
-/home/zx/workspace/Anker_Project/FeatureTracker/build/CMakeFiles/edit_cache.dir
