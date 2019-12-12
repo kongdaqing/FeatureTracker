@@ -1,0 +1,10 @@
+%YAML:1.0
+
+image_path: "/media/zx/work/SlamDatas/anker/1/img/"
+clahe: 0
+
+detectType: "FAST"
+col: 640
+row: 480
+max_corner: 100
+min_dist: 30
