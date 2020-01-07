@@ -27,6 +27,11 @@ void ReadImgDataFile::GetStereoFrame(ImageDataType &leftImg, ImageDataType &righ
        string time_2;
        string delta_time;
        imgFile >> time_now >> img_name >> time_2 >> delta_time;
+       if(img_name.empty())
+       {
+           readOverFlg = true;
+           return;
+       }
        double time_s = atof(time_now.c_str()) * 1e-09;
        string stereoName = path + img_name;
        cv::Mat stereoImg = cv::imread(stereoName,cv::IMREAD_GRAYSCALE);
