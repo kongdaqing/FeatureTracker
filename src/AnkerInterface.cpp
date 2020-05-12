@@ -27,6 +27,7 @@ int main(int argc,char** argv)
   {
       ankerImgReader.GetStereoFrame(leftImg,rightImg);
       featureTracker.UpdateImage(leftImg.img,rightImg.img);
+      //featureTracker.DetectFastCorner();
       featureTracker.PyrLKFeatureTracking();
       //featureTracker.DetectFeature2D();
       cv::waitKey(33);

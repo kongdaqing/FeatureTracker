@@ -1,6 +1,6 @@
 %YAML:1.0
 
-image_path: "/media/zx/work/SlamDatas/anker/1/img/"
+image_path: "/Users/kongdaqing/Desktop/workspace/project/SLAM/DataSet/anker/b14-f2-13x3-r1/data_set/img/"
 clahe: 0
 
 detectType: "FAST"

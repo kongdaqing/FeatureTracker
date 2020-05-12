@@ -126,7 +126,7 @@ void FeatureTracker::DetectOrbCorner()
 
 void FeatureTracker::DetectFastCorner()
 {
-    Ptr<FastFeatureDetector> fast = FastFeatureDetector::create(50,true);
+    Ptr<FastFeatureDetector> fast = FastFeatureDetector::create(20,true);
     if(curLeftImg.empty())
         return;
     Mat src = curLeftImg.clone();
